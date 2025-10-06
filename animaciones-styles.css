@@ -1,0 +1,51 @@
+/* Estilos generales y de los divs */
+body {
+    background: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Animación 1: Crecer y Encoger */
+@keyframes crecer {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.5); }
+    100% { transform: scale(1); }
+}
+
+.caja1 {
+    background: red;
+    animation: crecer 2s infinite alternate;
+}
+
+/* Animación 2: Rotar en 3D */
+@keyframes girar3d {
+    0% { transform: rotateY(0deg); }
+    50% { transform: rotateY(180deg); }
+    100% { transform: rotateY(360deg); }
+}
+
+.caja2 {
+    background: green;
+    transform-style: preserve-3d;
+    animation: girar3d 3s infinite linear;
+}
+
+/* Animación 3: Mover y Cambiar Color */
+@keyframes moverColor {
+    0% { transform: translateY(0); background: blue; }
+    50% { transform: translateY(-30px); background: Lightblue; }
+    100% { transform: translateY(0); background: blue; }
+}
+
+.caja3 {
+    background: blue;
+    animation: moverColor 2.5s infinite alternate;
+}
