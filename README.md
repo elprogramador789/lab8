@@ -40,6 +40,3 @@ Este laboratorio incluye ejercicios de maquetación con **Flexbox**, diseño **r
 ## ✅ Estado del proyecto
 
 ✔️ Finalizado y enviado para revisión.
-
-
-✔️ Finalizado y enviado para revisión.
